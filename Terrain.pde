@@ -54,8 +54,8 @@ public void draw()
   textSize(50);
   fill(0);
   
-  text("Scale: " + String.format("%.2f", scale), 100, 200);
-  text("Seed: " + String.format("%.2f", seed), 100, 300);
+  text("(Q-, E+) Scale: " + String.format("%.2f", scale), 100, 200);
+  text("(Z-, C+) Seed: " + String.format("%.2f", seed), 100, 300);
   text("Generate: Space", 100, 400);
 
 
