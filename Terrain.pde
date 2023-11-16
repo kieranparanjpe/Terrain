@@ -12,10 +12,13 @@ float seed = 7.5;
 
 PGraphics world;
 
+void settings() {
+size(displayWidth, displayHeight, P2D);}
+
 public void setup()
 {
+    
   world = createGraphics(width, height, P3D);
-  size(displayWidth, displayHeight, P2D);
   cam = new Camera();
     
   GenerateTerrain();
